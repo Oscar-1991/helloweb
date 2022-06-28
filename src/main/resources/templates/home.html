@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Ejercicio de Evaluaci&oacute;n</title>
+<style>
+html {
+	font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+	color: #404040;
+	background-color: #d3d3d3;
+}
+
+body {
+	padding: 5em;
+}
+</style>
+</head>
+
+<body>
+	<h1>
+		<span th:text="${nombre}"></span>
+	</h1>
+	<p>
+		Fecha y Hora de acceso: <span th:text="${tiempo}"></span>
+	</p>
+</body>
+</html>
